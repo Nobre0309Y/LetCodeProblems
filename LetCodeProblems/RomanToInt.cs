@@ -12,7 +12,7 @@ namespace LetCodeProblems
     public class RomanToInt
     {
 
-        public int RomanToInt(string s)
+        public int RomanToIntMethod(string s)
         {
             int result = 0;
             for (int i = 0; i < s.Length; i++) 

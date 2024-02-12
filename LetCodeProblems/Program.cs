@@ -1,2 +1,12 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿
+namespace LetCodeProblems
+{
+    public class Program
+    {
+        public static void Main(string[] args)
+        {
+            var test = new IsPalindrome();
+            Console.WriteLine(test.IsPalindromeMethod(121));
+        }
+    }
+}
