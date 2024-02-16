@@ -5,8 +5,8 @@ namespace LetCodeProblems
     {
         public static void Main(string[] args)
         {
-            var test = new IsPalindrome();
-            Console.WriteLine(test.IsPalindromeMethod(121));
+            var test = new _3Sum();
+            Console.WriteLine(test.ThreeSum([-1, 0, 1, 2, -1, -4]));
         }
     }
 }
