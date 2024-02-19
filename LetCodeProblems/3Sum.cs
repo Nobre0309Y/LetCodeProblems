@@ -25,7 +25,11 @@ namespace LetCodeProblems
                             if (nums[j] + nums[k] + nums[fixo] == 0 && j != k && j != fixo && fixo != k)
                         {
                             var temp = new List<int>() { nums[j], nums[k], nums[fixo] };
-                            result.Add(temp);
+                            if (!result.Any(list => list.SequenceEqual(temp)))
+                            {
+                                result.Add(temp);
+                            }
+
                         }
                     }
                 }
